@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans selection:bg-indigo-500/30">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/50">
+      <nav className="bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
@@ -37,7 +37,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+      <section className="relative pt-16 pb-20 lg:pt-24 lg:pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-indigo-100 via-slate-50 to-slate-50 -z-10"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-4xl mx-auto text-center">
@@ -372,16 +372,16 @@ export default function Home() {
       </section>
 
       {/* Footer */}
+
       <footer className="bg-slate-50 py-12 border-t border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <span className="font-display font-bold text-lg text-slate-900 tracking-tight">Sessionomics</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-end">
+          <div className="text-sm text-slate-400">
+            © 2026 CoFi Labs Inc. All rights reserved.
+          </div>
           <div className="flex gap-8 text-sm text-slate-500">
             <Link to="/privacy" className="hover:text-slate-900">Privacy</Link>
             <Link to="/terms" className="hover:text-slate-900">Terms</Link>
             <a href="https://form.typeform.com/to/vkd6h4UT" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900">Contact</a>
-          </div>
-          <div className="text-sm text-slate-400">
-            © 2026 CoFi Labs Inc. All rights reserved.
           </div>
         </div>
       </footer>

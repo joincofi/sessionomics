@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 
@@ -16,10 +15,7 @@ const Terms = () => {
       </nav>
 
       <main className="pt-32 pb-24 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+        <div
         >
           <h1 className="text-4xl font-bold font-display text-slate-900 tracking-tight mb-8">Terms of Service</h1>
           
@@ -68,7 +64,7 @@ const Terms = () => {
               </p>
             </section>
           </div>
-        </motion.div>
+        </div>
       </main>
     </div>
   );
