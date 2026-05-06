@@ -65,7 +65,7 @@ export default function Booking() {
 
       <footer className="bg-slate-50 py-12 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} Sessionomics. All rights reserved.
+          © {new Date().getFullYear()} CoFi Labs Inc. All rights reserved.
         </div>
       </footer>
     </div>
