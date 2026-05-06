@@ -29,7 +29,7 @@ export default function Home() {
 
             <div className="flex items-center gap-4">
               <Link to="/book" className="hidden sm:inline-flex px-5 py-2.5 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-slate-900 transition-all">
-                Get a Strategy Plan
+                Book a strategy call
               </Link>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to="/book" className="w-full sm:w-auto px-8 py-4 rounded-full bg-indigo-600 text-white font-medium hover:bg-slate-900 transition-all flex items-center justify-center gap-2 group">
-                Book your strategy call
+                Book a strategy call
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
@@ -361,7 +361,7 @@ export default function Home() {
             </p>
             
             <Link to="/book" className="inline-flex items-center justify-center gap-2 px-10 py-5 rounded-full bg-indigo-600 text-white font-medium text-lg hover:bg-slate-900 transition-all group">
-              Claim your strategy session
+              Book a strategy call
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </Link>
             <p className="mt-6 text-slate-500 font-medium text-sm">
