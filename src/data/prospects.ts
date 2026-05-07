@@ -52,4 +52,34 @@ export const prospects: Record<string, Prospect> = {
       icpRate: "92%+",
     },
   },
+  panopto: {
+    slug: 'panopto',
+    company: 'Panopto',
+    logoUrl: 'https://www.vectorlogo.zone/logos/panopto/panopto-ar21.svg',
+    contactFirstName: 'Olivia',
+    intro: "Here's the custom plan I'd run to fill Panopto's next session with the L&D and enterprise training buyers your sales team actually wants in the room.",
+    icp: {
+      summary: "Enterprise L&D and internal knowledge leaders: heads of learning, training directors, and internal comms VPs at companies scaling expert knowledge across thousands of employees.",
+      points: [
+        "VP or Head of Learning & Development at companies with 1,000+ employees",
+        "Directors of Enterprise Training evaluating video knowledge platforms in the next 6 months",
+        "Heads of Internal Communications at distributed orgs scaling onboarding and upskilling",
+        "L&D leaders frustrated with low engagement on their current LMS or video stack",
+      ],
+    },
+    session: {
+      topic: "Beyond the LMS: How Top L&D Teams Are Scaling Expert Knowledge Without Adding Headcount",
+      hook: "Open with a live teardown of a 40-hour quarterly training program rebuilt as a 30-minute on-demand session, with retention metrics from a Fortune 500 case study.",
+      format: "45-min session + 15-min live Q&A. Recorded segment fuels nurture, raw cut becomes 8 short-form ads for paid retargeting.",
+    },
+    accounts: [
+      "Salesforce", "Deloitte", "Accenture", "AT&T", "JPMorgan Chase",
+      "Walmart", "Cisco", "IBM", "Bank of America", "Lockheed Martin",
+    ],
+    projection: {
+      attendees: "80-110",
+      pipeline: "$500k-$750k",
+      icpRate: "90%+",
+    },
+  },
 };
