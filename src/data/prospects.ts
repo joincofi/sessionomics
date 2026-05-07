@@ -55,7 +55,7 @@ export const prospects: Record<string, Prospect> = {
   panopto: {
     slug: 'panopto',
     company: 'Panopto',
-    logoUrl: 'https://www.vectorlogo.zone/logos/panopto/panopto-ar21.svg',
+    logoUrl: 'https://www.panopto.com/wp-content/uploads/2026/04/panopto-logo-wintergreen.svg',
     contactFirstName: 'Olivia',
     intro: "Here's the custom plan I'd run to fill Panopto's next session with the L&D and enterprise training buyers your sales team actually wants in the room.",
     icp: {
