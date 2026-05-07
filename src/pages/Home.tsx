@@ -296,7 +296,7 @@ export default function Home() {
                   {[
                     { label: "Attendees", value: "87" },
                     { label: "New Pipeline", value: "$740k", sub: "+18% vs last report" },
-                    { label: "ICP Match Rate", value: "96%" },
+                    { label: "ICP Match Rate", value: "97%" },
                   ].map((m, i) => (
                     <div key={i} className="border border-stone-200 rounded-lg p-4 bg-stone-50">
                       <div className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1">{m.label}</div>
