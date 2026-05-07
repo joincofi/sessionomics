@@ -82,4 +82,34 @@ export const prospects: Record<string, Prospect> = {
       icpRate: "90%+",
     },
   },
+  xactly: {
+    slug: 'xactly',
+    company: 'Xactly',
+    logoUrl: 'https://www.xactlycorp.com/themes/custom/themekit/images/logo/xactly-logo-white.svg',
+    contactFirstName: 'Lauren',
+    intro: "Here's the custom plan I'd run to fill Xactly's next session with the RevOps and sales leaders your team actually wants in the room.",
+    icp: {
+      summary: "Mid-market and enterprise revenue leaders: VPs of Sales Ops, CROs, and Heads of RevOps at SaaS companies running 50+ quota-carrying reps and rebuilding their comp infrastructure.",
+      points: [
+        "VP or Head of Sales Operations at companies with 500 to 5,000 employees",
+        "CROs evaluating sales compensation platforms in the next 6 months",
+        "Heads of Revenue Operations at SaaS companies with 50+ AEs",
+        "Finance leaders who own sales comp planning and accruals",
+      ],
+    },
+    session: {
+      topic: "Beyond the Spreadsheet: How High-Growth Sales Orgs Are Rebuilding Comp for the Next Phase",
+      hook: "Open with a live teardown of a comp plan that scaled from 30 to 200 reps without breaking, including the three structural changes that made it work.",
+      format: "45-min session + 15-min live Q&A. Recorded segment fuels nurture, raw cut becomes 8 short-form ads for paid retargeting.",
+    },
+    accounts: [
+      "HubSpot", "Snowflake", "Workday", "ServiceNow", "MongoDB",
+      "GitLab", "Twilio", "Zoom", "Splunk", "Okta",
+    ],
+    projection: {
+      attendees: "70-100",
+      pipeline: "$480k-$720k",
+      icpRate: "91%+",
+    },
+  },
 };
