@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Booking from './pages/Booking';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Prospect from './pages/Prospect';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/book" element={<Booking />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/p/:slug" element={<Prospect />} />
       </Routes>
     </Router>
   );
