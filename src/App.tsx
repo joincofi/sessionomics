@@ -4,6 +4,7 @@ import Booking from './pages/Booking';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Prospect from './pages/Prospect';
+import Pricing from './pages/Pricing';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/book" element={<Booking />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/p/:slug" element={<Prospect />} />
